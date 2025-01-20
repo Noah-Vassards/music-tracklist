@@ -1,0 +1,66 @@
+.App, .body {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row !important; 
+    justify-content: space-around;
+    width: 66%;
+}
+
+.pagination button {
+    margin: 0% 10px 0% 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    border-color: #007BFF;
+}
+
+.pagination button:focus {
+    border-color: #007BFF;
+}
+
+
+select {
+    width: 16%;
+    min-height: 40px;
+    min-width: 110px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+}
+
+select:focus {  
+    border-color: #007BFF;
+}
+
+select:hover {
+    border-color: #007BFF;
+}
+
+.card-container {
+    width: 66.66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 20px;
+}
